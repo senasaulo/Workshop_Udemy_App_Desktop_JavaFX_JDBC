@@ -10,7 +10,7 @@
 
 <VBox prefHeight="411.0" prefWidth="431.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.DepartmentListController">
    <children>
-      <Label alignment="CENTER" prefHeight="28.0" prefWidth="172.0" text="Departament registration">
+      <Label alignment="CENTER" prefHeight="28.0" prefWidth="172.0" text="Department registration">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
