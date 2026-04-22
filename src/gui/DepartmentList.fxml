@@ -20,10 +20,12 @@
           <Button fx:id="btnNew" mnemonicParsing="false" onAction="#onBtNewAction" text="New" />
         </items>
       </ToolBar>
-      <TableView fx:id="tableViewDepartment" prefHeight="200.0" prefWidth="200.0">
+      <TableView fx:id="tableViewDepartment" prefHeight="200.0" prefWidth="332.0">
         <columns>
           <TableColumn fx:id="tableColumnId" prefWidth="96.0" text="id" />
-          <TableColumn fx:id="tableColumnName" prefWidth="334.0" text="name" />
+          <TableColumn fx:id="tableColumnName" minWidth="0.0" prefWidth="213.0" text="name" />
+            <TableColumn fx:id="tableColumnEdit" prefWidth="56.0" />
+            <TableColumn fx:id="tableColumnRemove" prefWidth="59.0" />
         </columns>
       </TableView>
    </children>
